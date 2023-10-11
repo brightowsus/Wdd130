@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -21,6 +24,12 @@ main section{
 }
 body{
     background-color: #235789  ;
+    font-family:'Young Serif', serif; ;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color:#E7C24F ;
@@ -33,32 +42,49 @@ nav a:hover{
     background-color:#E7C24F ;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #E7C24F;
     color: black;
+}
+.icon{
+    padding: 10px;
 }
 #background{
     background-color: #E7C24F;
 }
 .msg{
     background-color:#E7C24F ;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #235789;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: black;
+    font-family: 'Young Serif', serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .msg h2{
     color: black;
+    font-family: 'Young Serif', serif;
 }
 .msg p{
     color: black;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: black;
@@ -76,9 +102,30 @@ footer a:hover{
 #hero-img{
     width: 100%;
 }
+#logo_link{
+    padding-top: 5px;
+}
 footer p{
     font-size: 1.2em;
 }
 footer p a:hover{
     text-decoration: underline;
+}
+section{
+    line-height: 1.5em;
+}
+nav a{
+    padding: 35px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.river-card, .camping-card, .rapids-card {
+    margin:200px 0 ;
+}
+.card-img{
+    border:  10px solid black;
+}
+.main section img{
+    box-sizing: border-box;
 }
