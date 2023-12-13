@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+
+}
+.header{
+    background-color:#396E94;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-family:  Tilt Neon;
+}
+
+nav a {
+    text-decoration: none;
+    color:#E7C24F ;
+    padding: 5px;
+    display: inline-block;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 100px; /* adjust the width as needed */
+    height: auto;
+    margin-left: 40px; /* adjust the margin as needed */
+    padding: 2px; /* add padding around the image */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Two equal columns */
+    gap: 20px; /* Adjust the gap as needed */
+    padding-top: 20px;
+}
+.second-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Adjust the gap as needed */
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+} 
+p {
+    grid-column: 2 / span 1; /* Place the text in the first column */
+    font-family:  Roboto ;
+}
