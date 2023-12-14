@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+
+}
+.header{
+    background-color:#396E94;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-family:  Tilt Neon;
+}
+
+nav a {
+    text-decoration: none;
+    color:#E7C24F ;
+    padding: 5px;
+    display: inline-block;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 100px; /* adjust the width as needed */
+    height: auto;
+    margin-left: 40px; /* adjust the margin as needed */
+    padding: 2px; /* add padding around the image */
+}
+    /* Add some basic styling for the div box */
+    .my-work-box {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      /* Style the label within the div */
+      .my-work-label {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+      }
+     /* Use Flexbox for layout */
+     .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+      }
+  
+      .image-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+  
+      .image-container img {
+        max-width: 48%; /* Adjust as needed */
+        height: auto;
+      }
+  
+      p {
+        max-width: 100%;
+        font-family: roboto;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        text-align: left;
+      }
+  
+      .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: left; /* Align to the left */
+      }
+  
+      .social-link {
+        margin-right: 10px;
+      }
+  
+      .social-link img {
+        width: 20px; /* Adjust the size as needed */
+        height: auto;
+      }
